@@ -34,7 +34,7 @@ export function GetBookings()
     return(
     <div className="pt-1 pl-3 h-screen bg-gray-900">
       <div className="">
-      The reservation table shows the reservations at the current moment plus one day ahead: ,
+      The reservation table shows the reservations at the current moment plus one day ahead: 
       </div>
       <table className="bg-gray-800">
         <thead className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-md text-white font-bold rounded focus:outline-none focus:shadow-outline">
