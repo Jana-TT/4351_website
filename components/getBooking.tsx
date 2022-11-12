@@ -32,7 +32,7 @@ export function GetBookings()
 
 
     return(
-    <div className="pt-1 pl-3 h-screen bg-gray-900">
+    <div className="pt-4 pl-6 h-screen bg-gray-900">
       <div className="">
       The reservation table shows the reservations at the current moment plus one day ahead: 
       </div>

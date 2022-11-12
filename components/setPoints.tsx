@@ -24,7 +24,7 @@ export function SetPoints()
     }
 
     return(
-        <div className= "text-xl pt-80 pr-80 pl-80 bg-gray-900 h-screen">
+        <div className= "text-xl pt-80 pr-80 pl-80 bg-gray-800 h-screen">
             <form onSubmit={handleSubmit}>
                 
                 <div className="mb-4">

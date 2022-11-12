@@ -4,7 +4,7 @@ import { LogOut } from '../components/logout'
 import Link from "next/link"
 
 
-export default function Home() {
+export default function homePage() {
   return (
 
     <div className="h-screen bg-gradient-to-r from-indigo-700 via-purple-700 to-pink-800">
