@@ -68,8 +68,8 @@ export function CreateBooking()
                 <div className="font-bold text-xl absolute left-20 w-80 pt-20">
                     Note:
                     <div className="font-normal pt-2">
-                        You don't need to be registered to make a reservation, but it is recommended to sign up! Registered members recieve points and rewards!
-                        <svg className="w-80 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
+                        You do not need to be registered to make a reservation, but it is recommended to sign up! Registered members recieve points and rewards!
+                        <svg className="w-80 h-10" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7"></path></svg>
                         <div className={styles.grid}>
                         <Link href="/createAccount" >
                             <a className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-lg text-white font-bold py-4 px-4 rounded focus:outline-none focus:shadow-outline mt-4">
