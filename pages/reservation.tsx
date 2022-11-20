@@ -4,6 +4,7 @@ import { CreateBooking } from "../components/createBooking";
 
 export default function About(){
     return(
-        <CreateBooking />
+
+        <CreateBooking/>
     )
 }
