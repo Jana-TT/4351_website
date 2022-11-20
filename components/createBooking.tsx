@@ -64,10 +64,10 @@ export function CreateBooking()
         }
     }
     return(
-      
+       
             
             <div className= "text-xl pt-40 pr-80 pl-80 h-screen bg-gray-900">
-            
+                
                 <form onSubmit={handleSubmit}>
                     <div className="font-bold text-xl absolute left-20 w-80 pt-20">
                         Note:
@@ -130,14 +130,14 @@ export function CreateBooking()
                         <button className="bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" >
                             Make Reservation
                         </button>
-                       
+                       <Header/>
                         
                     </div>
 
                 </div>
                 </form>
             </div>
-       
+      
 
     )
 
