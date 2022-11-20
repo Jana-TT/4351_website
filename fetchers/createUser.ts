@@ -33,5 +33,15 @@ export async function createUser(billingAddress: string, mailingAddress: string,
 {
     localStorage.setItem("mailing", mailingAddress);
 
+    if(mailingAddress.length < 8 || name.length < 3 || preferredPaymentMethod.length < 4)
+    {
+        return false;
+    }
+
+    if(billingAddress.length == 0)
+    {
+        billingAddress = mailingAddress;
+    }
+
     return await startExecuteAddUser(billingAddress, mailingAddress, name, preferredPaymentMethod);
 }
